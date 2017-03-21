@@ -1,0 +1,9 @@
+//Creative Tab
+itemGroup.tab_missingblocks=Missing Blocks Mod
+
+
+//Blocks
+tile.dioriteslab.name=Diorite Slab
+tile.dioritestairs.name=Diorite Stairs
+tile.dioritestonebrick.name=Diorite Stonebricks
+tile.dioritestonebrickstairs.name=Diorite Stonebrick Stairs

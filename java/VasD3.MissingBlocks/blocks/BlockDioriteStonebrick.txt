@@ -1,0 +1,19 @@
+package com.VasD3.MissingBlocks.blocks;
+
+import com.VasD3.MissingBlocks.MissingBlocks;
+import com.VasD3.MissingBlocks.Reference;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class BlockDioriteStonebrick extends Block {
+
+	public BlockDioriteStonebrick() {
+		super(Material.ROCK);
+		setUnlocalizedName(Reference.MissingBlocksBlocks.DIORITESTONEBRICK.getunlocalizedName());
+		setRegistryName(Reference.MissingBlocksBlocks.DIORITESTONEBRICK.getRegistyName());
+		setHardness(1.5F);
+		setCreativeTab(MissingBlocks.tabMissingBlocks);
+	}
+
+}

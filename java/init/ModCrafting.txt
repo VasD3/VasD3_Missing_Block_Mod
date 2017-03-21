@@ -1,0 +1,14 @@
+package init;
+
+import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class ModCrafting {
+
+	public static void register() {
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.dioritestairs, 4), "D  ","DD ", "DDD", 'D', new ItemStack(Blocks.STONE, 3, 3));
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.dioritestonebrick, 4), "DD","DD", 'D', new ItemStack(Blocks.STONE, 4, 4));
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.dioritestonebrickstairs, 4), "D  ","DD ", "DDD", 'D', ModBlocks.dioritestonebrick);
+	}
+}

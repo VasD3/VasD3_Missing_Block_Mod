@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "vmb:dioriteslabbottom" },
+        "half=top": { "model": "vmb:dioriteslabtop" }
+    }
+}

@@ -1,0 +1,15 @@
+[
+{
+  "modid": "vmb",
+  "name": "VasD3's Missing Blocks Mod",
+  "description": "More blocks that should be!",
+  "version": "1.0",
+  "mcversion": "1.11.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["VasD3"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

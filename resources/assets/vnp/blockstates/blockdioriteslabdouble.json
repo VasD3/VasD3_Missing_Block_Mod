@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=top": { "model": "stone_diorite" },
+        "half=bottom": { "model": "stone_diorite" }
+    }
+}

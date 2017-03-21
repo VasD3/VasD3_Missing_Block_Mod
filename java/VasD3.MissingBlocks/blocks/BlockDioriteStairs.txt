@@ -1,0 +1,20 @@
+package com.VasD3.MissingBlocks.blocks;
+
+import com.VasD3.MissingBlocks.MissingBlocks;
+import com.VasD3.MissingBlocks.Reference;
+
+import net.minecraft.block.BlockStairs;
+import net.minecraft.block.state.IBlockState;
+
+public class BlockDioriteStairs extends BlockStairs {
+
+	public BlockDioriteStairs(IBlockState state) {
+		super(state);
+		setUnlocalizedName(Reference.MissingBlocksBlocks.DIORITESTAIRS.getunlocalizedName());
+		setRegistryName(Reference.MissingBlocksBlocks.DIORITESTAIRS.getRegistyName());
+		setHardness(1.5F);
+		setCreativeTab(MissingBlocks.tabMissingBlocks);		
+		this.useNeighborBrightness = true;
+	}
+
+}

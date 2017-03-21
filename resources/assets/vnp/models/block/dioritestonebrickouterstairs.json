@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "vmb:blocks/dioritestonebrick",
+        "top": "vmb:blocks/dioritestonebrick",
+        "side": "vmb:blocks/dioritestonebrick"
+    }
+}

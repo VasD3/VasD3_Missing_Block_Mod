@@ -1,0 +1,11 @@
+package com.VasD3.MissingBlocks.proxy;
+
+import init.ModBlocks;
+
+public class ClientProxy implements CommonProxy {
+
+	@Override
+	public void init() {
+		ModBlocks.registerRenders();
+	}
+}

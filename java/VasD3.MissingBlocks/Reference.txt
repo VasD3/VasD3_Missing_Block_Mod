@@ -1,0 +1,35 @@
+package com.VasD3.MissingBlocks;
+
+public class Reference {
+	
+	public static final String MOD_ID = "vmb";
+	public static final String NAME = "VasD3's Missing Blocks Mod";
+	public static final String VERSION = "1.0";
+	public static final String ACCEPTED_VERSIONS = "[1.11.2]";
+
+	public static final String CLIENT_PROXY_CLASS = "com.VasD3.MissingBlocks.proxy.ClientProxy";
+	public static final String SERVER_PROXY_CLASS = "com.VasD3.MissingBlocks.proxy.ServerProxy";
+	
+	public static enum MissingBlocksBlocks {
+		DIORITESLAB("dioriteslab", "BlockDioriteSlab"),
+		DIORITESTAIRS("dioritestairs", "BlockDioriteStairs"),
+		DIORITESTONEBRICK("dioritestonebrick", "BlockDioriteStonebrick"),
+		DIORITESTONEBRICKSTAIRS("dioritestonebrickstairs", "BlockDioriteStonebrickStairs");
+		
+		private String unlocalizedName;
+		private String registryName;
+		
+		MissingBlocksBlocks(String unlocalizedName, String registryName) {
+			this.unlocalizedName = unlocalizedName;
+			this.registryName = registryName;
+		}
+		
+		public String getunlocalizedName() {
+			return unlocalizedName;
+		}
+		
+		public String getRegistyName() {
+			return registryName;
+		}
+	}
+}

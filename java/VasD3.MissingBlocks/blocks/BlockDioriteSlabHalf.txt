@@ -1,0 +1,17 @@
+package com.VasD3.MissingBlocks.blocks;
+
+public class BlockDioriteSlabHalf extends BlockDioriteSlab {
+	
+	public BlockDioriteSlabHalf() {
+		super();
+		
+	}
+
+	@Override
+	public boolean isDouble() {
+		return false;
+	}
+	
+	
+
+}

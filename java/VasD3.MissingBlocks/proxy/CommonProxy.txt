@@ -1,0 +1,6 @@
+package com.VasD3.MissingBlocks.proxy;
+
+public interface CommonProxy {
+
+	public void init();
+}
